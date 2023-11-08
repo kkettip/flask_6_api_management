@@ -173,5 +173,5 @@ In terminal input :
 
 Issues Encountered
 
-Build Falied. This issue was resolved by adding  `functions-framework` in requirements.txt
+Build Falied when trying to deploy cloud functions. This issue was resolved by adding  `functions-framework` in requirements.txt
 
