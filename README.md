@@ -180,7 +180,7 @@ In terminal input :
 11. A swagger API documentation is displayed
 
 
-Issues Encountered
+## Issues Encountered
 
 Build Falied when trying to deploy cloud functions. This issue was resolved by adding  `functions-framework` in requirements.txt
 
