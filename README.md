@@ -141,3 +141,30 @@ def hello_post():
 if __name__ == '__main__':
 
     app.run(debug=True)
+
+
+Deploy app in app engine to generate API documentation
+
+Steps to deploy in GCP app engine
+
+In terminal input :
+
+1. `gcloud config set project <project ID>`
+  
+2. `gcloud auth login`
+
+3. go to browser link
+
+4. allow cloud SDK to access google account
+
+5. copy authorization code 
+
+7. enter authorization code
+
+8. `gcloud app deploy app.yaml`
+
+9. Web link will be provided `https://kettipcloud504.ue.r.appspot.com`
+
+10. modify to become: `https://kettipcloud504.ue.r.appspot.com/apidocs/`
+
+11. A swagger API documentation is displayed
