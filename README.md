@@ -2,7 +2,11 @@
 
 
 Steps to Create cloud functions in GCP
-2. Enable required APIs
-3. Set configurations
-4. Select Next
-5. Select Deploy
+
+1. Enable required APIs
+   
+2. Set configurations
+   
+3. Select Next
+   
+4. Select Deploy
