@@ -36,19 +36,20 @@ Steps for API Documentation
 
 Modify code in appy.py to the following:
 
-from flask import Flask, request, jsonify
 
-from flasgger import Swagger
+`from flask import Flask, request, jsonify`
 
-
-app = Flask(__name__)
-
-Swagger(app)
+`from flasgger import Swagger`
 
 
-@app.route('/hello', methods=['GET'])
+`app = Flask(__name__)`
 
-def hello_get():
+`Swagger(app)`
+
+
+`@app.route('/hello', methods=['GET'])`
+
+`def hello_get():`
 
     """
     
@@ -81,9 +82,9 @@ def hello_get():
     return f'Hello {name}!'
     
 
-@app.route('/hello', methods=['POST'])
+`@app.route('/hello', methods=['POST'])`
 
-def hello_post():
+`def hello_post():`
 
     """
     
@@ -138,7 +139,7 @@ def hello_post():
     
     return jsonify({'message': f'Hello {name}!'})
 
-if __name__ == '__main__':
+`if __name__ == '__main__':`
 
     app.run(debug=True)
 
@@ -168,3 +169,9 @@ In terminal input :
 10. modify to become: `https://kettipcloud504.ue.r.appspot.com/apidocs/`
 
 11. A swagger API documentation is displayed
+
+
+Issues Encountered
+
+Build Falied. This issue was resolved by adding  `functions-framework` in requirements.txt
+
