@@ -1,12 +1,14 @@
 # flask_6_api_management
 
 
-Steps to Create cloud functions in GCP
+Steps to Create Cloud Functions in GCP
 
-1. Enable required APIs
+1. Navigate to Cloud Functions
+  
+2. Enable required APIs
    
-2. Set configurations
+3. Set configurations
    
-3. Select Next
+4. Select Next
    
-4. Select Deploy
+5. Select Deploy
