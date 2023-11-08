@@ -15,7 +15,7 @@ Steps to Create Cloud Functions in GCP
 
 6.Run the following in terminal to generate endpoint in browser
   
-  gcloud functions deploy function-1 \
+  `gcloud functions deploy function-1 \`
   
     --gen2 \
     
