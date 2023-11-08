@@ -155,6 +155,8 @@ Deploy app in app engine to generate API documentation
 
 ## Steps to deploy in GCP app engine
 
+First add app.yaml then:
+
 In terminal input :
 
 1. `gcloud config set project <project ID>`
