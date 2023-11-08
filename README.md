@@ -1,7 +1,7 @@
 # flask_6_api_management
 
 
-Steps to Create Cloud Functions in GCP
+## Steps to Create Cloud Functions in GCP
 
 1. Navigate to Cloud Functions
   
@@ -30,9 +30,16 @@ Steps to Create Cloud Functions in GCP
     --trigger-http \
     
     --allow-unauthenticated
-  
 
-Steps for API Documentation 
+7. allow cloud SDK to access google account
+
+8. copy authorization code 
+
+9. enter authorization code
+
+10. Browser url would be provided
+
+## Steps for API Documentation 
 
 Modify code in app.py to the following:
 
@@ -146,7 +153,7 @@ Modify code in app.py to the following:
 
 Deploy app in app engine to generate API documentation
 
-Steps to deploy in GCP app engine
+##Steps to deploy in GCP app engine
 
 In terminal input :
 
