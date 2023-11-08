@@ -34,7 +34,7 @@ Steps to Create Cloud Functions in GCP
 
 Steps for API Documentation 
 
-Modify code in appy.py to the following:
+Modify code in app.py to the following:
 
 
 `from flask import Flask, request, jsonify`
